@@ -6,3 +6,7 @@ document.addEventListener("mousemove", (e) => {
     `,
   });
 });
+
+document.querySelector(".button-start").addEventListener("click", () => {
+  window.location.href = "./club.html";
+});
