@@ -106,7 +106,6 @@ body {
 }
 
 .button-start {
-  display: inline-block;
   color: white;
   font-family: Arial;
   font-weight: 600;
@@ -119,8 +118,6 @@ body {
   border: rgb(255, 255, 255 / 0.3) 3px solid;
   outline: none;
   cursor: pointer;
-  text-decoration: none;
-  line-height: normal;
 }
 
 .layer-4,
