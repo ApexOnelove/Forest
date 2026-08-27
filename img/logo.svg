@@ -1,0 +1,43 @@
+<svg class="child" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 110" role="img" aria-labelledby="logo-title logo-description">
+  <title id="logo-title">Мужской Лесной Клуб</title>
+  <desc id="logo-description">Круглая эмблема с елью и скрещёнными топорами над надписью «Мужской Лесной Клуб».</desc>
+
+  <defs>
+    <filter id="logo-shadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2.2" flood-color="#08110d" flood-opacity=".72"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#logo-shadow)">
+    <!-- Badge -->
+    <circle cx="72" cy="35" r="29" fill="none" stroke="#f5f1e6" stroke-width="1.7"/>
+    <circle cx="72" cy="35" r="25.5" fill="none" stroke="#c89b53" stroke-width=".8" opacity=".95"/>
+
+    <!-- Crossed wood axes -->
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M54 51 87.5 17.5" fill="none" stroke="#c89b53" stroke-width="2.1"/>
+      <path d="M90 51 56.5 17.5" fill="none" stroke="#c89b53" stroke-width="2.1"/>
+      <path d="m84.2 15.2 8.9-2.8-2.8 8.9-5-1.1z" fill="#f5f1e6"/>
+      <path d="m59.8 15.2-8.9-2.8 2.8 8.9 5-1.1z" fill="#f5f1e6"/>
+    </g>
+
+    <!-- Central fir tree -->
+    <path d="M72 10.5 64.9 22h4.2l-8 12.2h5.2L57.5 48h11.8v8h5.4v-8h11.8l-8.8-13.8h5.2L74.9 22h4.2z" fill="#f5f1e6"/>
+    <path d="M72 18v31" fill="none" stroke="#c89b53" stroke-width="1" opacity=".75"/>
+
+    <!-- Ground and small forest details -->
+    <path d="M49 54.5c8.4-2 14.5-2.4 23-1.2 8.5-1.2 14.6-.8 23 1.2" fill="none" stroke="#f5f1e6" stroke-width="1.25" stroke-linecap="round"/>
+    <path d="m49.5 35 3.8-6 3.8 6h-2.2l3 4.8h-9.2l3-4.8zm37.4 4.8 3-4.8h-2.2l3.8-6 3.8 6h-2.2l3 4.8z" fill="#f5f1e6" opacity=".9"/>
+
+    <!-- Ornament divider -->
+    <path d="M28 70h31m26 0h31" stroke="#c89b53" stroke-width="1" stroke-linecap="round"/>
+    <path d="m72 66.5 3.5 3.5-3.5 3.5-3.5-3.5z" fill="#c89b53"/>
+    <circle cx="63.5" cy="70" r="1" fill="#f5f1e6"/>
+    <circle cx="80.5" cy="70" r="1" fill="#f5f1e6"/>
+
+    <!-- Club name -->
+    <text x="72" y="85" fill="#f5f1e6" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="700" letter-spacing="3.1" text-anchor="middle">МУЖСКОЙ</text>
+    <text x="72" y="101" fill="#f5f1e6" font-family="Arial, Helvetica, sans-serif" font-size="11.3" font-weight="800" letter-spacing="1.25" text-anchor="middle">ЛЕСНОЙ КЛУБ</text>
+    <path d="M33 106h78" stroke="#c89b53" stroke-width="1" stroke-linecap="round"/>
+  </g>
+</svg>
